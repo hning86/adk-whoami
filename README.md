@@ -1,6 +1,5 @@
 # Whoami ADK Agent 
 
-## What is Whoami
 Whoami is a sample ADK agent, when registered in Google's Gemini Enterprise, that can capture end user's basic information such as email, name etc. (assuming user uses Google identity to log in). Here is whoami in action.
 
 ![whoami screenshot](imgs/whoami.png)
