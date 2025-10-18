@@ -57,7 +57,7 @@ sh create_auth.sh
 
 ### 6. Register the agent.
 
-Use the Agent Registration tool to register the deployed agent with your Gemini Enterprise instance. Make sure you supply the `AUTH_ID` value to the registration configuration. This ensures your agent inject the auth token into the `ToolsContext` object when making the tool call.
+Use the [Agent Registration tool](https://github.com/VeerMuchandi/agent_registration_tool) to register the deployed agent with your Gemini Enterprise instance. Make sure you supply the `AUTH_ID` value to the registration configuration. This ensures your agent inject the auth token into the `ToolsContext` object when making the tool call.
 
 ### 7. Time to party.
 
