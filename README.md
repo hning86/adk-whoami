@@ -61,4 +61,4 @@ Use the [Agent Registration tool](https://github.com/VeerMuchandi/agent_registra
 
 ### 7. Time to party.
 
-Invoke the whoami agent from Gemini Enterprise, and see it invokes Authorization flow, and replies your email and name.
+Invoke the whoami agent from Gemini Enterprise, ask the agent to tell you everything about you, and see how it invokes Authorization flow, and replies with your email and name.
