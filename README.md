@@ -40,7 +40,7 @@ Also pay attention to the scopes. These 2 scopes ask for permission to access us
 
 If you need other permissions, refer to [OAuth 2.0 Scopes for Google APIs](https://developers.google.com/identity/protocols/oauth2/scopes).
 
-### 5. Create Authorization
+### 5. Create Authorization Resource in GCP
 
 Modify the `create_auth.sh` file. Enter the following values:
 1. PROJECT_NUMBER: GCP Project Number.
@@ -49,7 +49,7 @@ Modify the `create_auth.sh` file. Enter the following values:
 4. OAUTH_CLIENT_SECRET: Client Secret from step 3.
 5. OAUTH_AUTH_URI: The output from step 4.
 
-After you fill in the correct values, run the script.
+After you fill in the correct values, run the script. This script will create the Authorization Resource object in your GCP project. And your registered agent will reference it in the next step.
 
 ```sh
 sh create_auth.sh
