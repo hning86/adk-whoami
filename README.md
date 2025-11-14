@@ -4,6 +4,8 @@ Whoami is a sample ADK agent, when registered in Google's Gemini Enterprise, tha
 
 ![whoami screenshot](imgs/whoami.png)
 
+The purpose of this sample agent is to show how to build OAuth flow in ADK agent deployed in Agent Engine and registered with Gemini Enterprise.
+
 ## Step by step guide
 
 ### 1. Create `agent.py` file.
